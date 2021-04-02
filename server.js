@@ -11,12 +11,7 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/views/index.html')
 });
 
-
-process.env.MONGO_URI="mongodb+srv://tepa6aut:05MongoDB23@cluster0.sbkcl.mongodb.net/test?retryWrites=true&w=majority";
-
-
 mongoose.connect(process.env.MONGO_URI);
-
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
