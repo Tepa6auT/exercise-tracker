@@ -2,7 +2,7 @@
 
 Microservice for people to register and keep track of their exercise activities
 
-# [Functionality]
+# Functionality
 
 Create a new User: 
   requires a username, responds with unique user ID 
